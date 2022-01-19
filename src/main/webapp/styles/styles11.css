@@ -1,0 +1,79 @@
+.margin-top {
+    margin-top: 30%;
+}
+.margin-top-5 {
+    margin-top: 5%;
+}
+
+.index {
+    height: 100%;
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+.index::after {
+    content: "";
+    background: url(/img/index.jpg);
+    opacity: 0.4;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+
+
+.btn-padding-size {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.btn-padding-size-margin {
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 5%;
+}
+.login {
+    height: 100%;
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+.login::after {
+    content: "";
+    background: url(/img/login.jpg);
+    opacity: 0.4;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.registration {
+    height: 100%;
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+.registration::after {
+    content: "";
+    background: url(/img/registration.jpg);
+    opacity: 0.4;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+
+
+
