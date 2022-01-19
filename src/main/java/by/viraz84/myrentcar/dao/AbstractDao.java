@@ -15,7 +15,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class AbstractDao<T> {
+public abstract class AbstractDao<T> {
     private static final Logger LOGGER = LoggerFactory.getLogger(AbstractDao.class);
 
     public static final String SELECT_STATEMENT = "SELECT * FROM %s";
